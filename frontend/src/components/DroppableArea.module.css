@@ -1,0 +1,20 @@
+/* src/components/DroppableArea.module.css */
+
+.droppableArea {
+  width: 300px;
+  height: 400px;
+  border: 2px dashed #ccc;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.over {
+  border-color: #666;
+}
+
+.droppedItem {
+  padding: 5px;
+  margin: 5px 0;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+}

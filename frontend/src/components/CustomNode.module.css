@@ -1,0 +1,13 @@
+/* CustomNode.module.css */
+.customNode {
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .handle {
+    border-radius: 0;
+  }
+  

@@ -1,0 +1,29 @@
+/* DragAndDropDemo.module.css */
+
+.dragAndDropContainer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .itemsContainer {
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .droppableContainer {
+    flex: 2 1 600px;
+  }
+  
+  /* On small screens, stack the containers */
+  @media (max-width: 600px) {
+    .dragAndDropContainer {
+      flex-direction: column;
+    }
+  
+    .itemsContainer,
+    .droppableContainer {
+      flex: 1 1 100%;
+    }
+  }
+  

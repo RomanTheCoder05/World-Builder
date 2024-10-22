@@ -1,0 +1,44 @@
+/* Navbar.module.css */
+
+.navbar {
+    background-color: var(--primary-color);
+    padding: var(--spacing-unit);
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  }
+  
+  .navLinks {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    margin-right: var(--spacing-unit);
+  }
+  
+  .navLink {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Media Query for Small Screens */
+  @media (max-width: 600px) {
+    .navbar {
+      justify-content: center;
+    }
+  
+    .navLinks {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .navItem {
+      margin: var(--spacing-unit) 0;
+    }
+  }
+  

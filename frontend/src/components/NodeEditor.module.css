@@ -1,0 +1,74 @@
+/* src/components/NodeEditor.module.css */
+
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .item {
+    padding: 5px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .nodeEditor {
+    height: 600px;
+    flex-grow: 1;
+  }
+  
+  .modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .tagButton {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .tagButton:hover {
+    opacity: 0.8;
+  }
+  
+  .cancelButton {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #bbb;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cancelButton:hover {
+    background-color: #999;
+  }
+  

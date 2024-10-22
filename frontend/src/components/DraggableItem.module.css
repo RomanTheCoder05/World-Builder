@@ -1,0 +1,29 @@
+/* DraggableItem.module.css */
+
+.draggableItem {
+    padding: calc(2 * var(--spacing-unit));
+    margin: var(--spacing-unit);
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    cursor: move;
+    transition: background-color 0.2s, transform 0.2s;
+  }
+  
+  .draggableItem:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .dragging {
+    opacity: 0.5;
+    transform: scale(1.05);
+  }
+  
+  /* Adjust font size and padding on smaller screens */
+  @media (max-width: 600px) {
+    .draggableItem {
+      padding: var(--spacing-unit);
+      font-size: 0.9rem;
+    }
+  }
+  
